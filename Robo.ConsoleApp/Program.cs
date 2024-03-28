@@ -137,7 +137,8 @@
 
         private static void ExibeResultado(int xfinal, int yfinal, string atualdirection, int XAuxiliar, int YAuxiliar, string direcaoAuxiliar)
         {
-            Console.WriteLine("\n");
+            
+            Console.Clear();
 
             Console.WriteLine($"({XAuxiliar},{YAuxiliar}) {direcaoAuxiliar}");
 
